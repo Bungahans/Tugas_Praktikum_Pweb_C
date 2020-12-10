@@ -5,7 +5,7 @@ body{
 .navbar{
     width: 100%;
     height: 80px;
-    background-color: #b57cff;
+    background-color: hsl(266, 100%, 74%,0.5);
     margin: 0px;
 }
 .navbar h1{
@@ -26,7 +26,7 @@ body{
     display: block;
     width: 40%;
     margin: 0px auto;
-    border-color: white;
+    border-color: #ffffff;
     font-weight: bold;
     font-size: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -41,7 +41,7 @@ body{
 .container form button{
     width: 100px;
     margin: 0px auto;
-    background-color: #b57cff;
+    background-color: #b47aff;
     margin-top: 20px;
     height: 50px;
     color: black;
