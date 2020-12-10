@@ -1,0 +1,90 @@
+body{
+    background-image: url("img/bg.jpg");
+    background-size: cover;
+}
+.navbar{
+    width: 100%;
+    height: 80px;
+    background-color: #b57cff;
+    margin: 0px;
+}
+.navbar h1{
+    color: black;
+    font-weight: bold;
+    font-size: 45px;
+    text-align: center;
+    padding-top: 15px;
+}
+.container{
+    display: flex;
+}
+.container form{
+    margin-top: 5%;
+    width: 100%;
+}
+.container form label{
+    display: block;
+    width: 40%;
+    margin: 0px auto;
+    border-color: white;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container form input{
+    display: block;
+    width: 40%;
+    margin: 20px auto;
+    height: 50px;
+    border-color: black;
+}
+.container form button{
+    width: 100px;
+    margin: 0px auto;
+    background-color: #b57cff;
+    margin-top: 20px;
+    height: 50px;
+    color: black;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.modal {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.672);
+}
+.modal.show {
+    display: block;
+    animation: fade .5s forwards;
+}
+.modal-dialog {
+    position: relative;
+    width: auto;
+    max-width: 576px;
+    margin: 50px auto;
+}
+.modal-content {
+    background-color: white;
+    width: 100%;
+    border-radius: 10px;
+}
+.modal-content .modal-header {
+    padding: 30px 30px;
+    text-align: center;
+}
+.invalid{
+    display: none;
+    width: 100%;
+    height: 100%;
+    color: red;
+}
+.invalid.show{
+    display: block;
+    animation: fade .5s forwards;
+}
