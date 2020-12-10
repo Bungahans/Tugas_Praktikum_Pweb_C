@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="navbar">
+        <h1>Login</h1>
+    </div>
+    <div class="container">
+        <form id="formasuk" name="masuk" method="POST">
+            <label for="username">username</label>
+            <input type="text" name="username">
+            <label for="password">password</label>
+            <input type="password" name="password">
+            <center>
+                <button data-toggle="modal" style="background-color: #b57cff;">Submit</button>
+                <div class="invalid show">invalid username or password</div>
+            </center>
+        </form>
+    </div>
+    <br\>
+        <div class="modal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        SUCCESS
+                    </div>
+                </div>
+            </div>
+        </div>
+    <br\>
+<script src="index.js"></script>
+</body>
+</html>
